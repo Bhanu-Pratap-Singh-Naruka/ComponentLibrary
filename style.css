@@ -1,5 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Titillium+Web:wght@400;600&display=swap");
 
+:root {
+  --primary-color: #065f46;
+}
+
 body {
   font-family: "Titillium Web", sans-serif;
+}
+
+/* container */
+
+.containerCenter {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Links */
+
+.primaryLink {
+  background-color: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #065f46;
+  border-radius: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.secondaryLink {
+  /* color: #fff; */
+  text-decoration: none;
+  border: 1px solid #065f46;
+  border-radius: 0.9rem;
+  padding: 0.5rem 1rem;
 }
