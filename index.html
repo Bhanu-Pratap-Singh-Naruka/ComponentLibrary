@@ -48,17 +48,17 @@
     <h2>@List</h2>
 
     <h3>Unordered list</h3>
-    <ul>
+    <ul class="unorderedList">
       <li>item1</li>
       <li>item2</li>
       <li>item3</li>
     </ul>
 
     <h3>unordered inline list</h3>
-    <ul>
-      <li>Inline item1</li>
-      <li>Inline item2</li>
-      <li>Inline item3</li>
+    <ul class="unorderedList">
+      <li class="lnlineList">Inline item1</li>
+      <li class="lnlineList">Inline item2</li>
+      <li class="lnlineList">Inline item3</li>
     </ul>
 
     <h3>Reverse Ordered list</h3>
@@ -70,52 +70,57 @@
     <hr />
 
     <h2>@Nav</h2>
-    <nav>
-      <div>A learner</div>
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Blogs</a></li>
+    <nav class="navBar">
+      <div class="about">A learner</div>
+      <ul class="unorderedList navList">
+        <li class="lnlineList"><a href="">Home</a></li>
+        <li class="lnlineList"><a href="">Projects</a></li>
+        <li class="lnlineList"><a href="">Blogs</a></li>
       </ul>
     </nav>
     <hr />
 
     <h2>@Header</h2>
-    <header>
+    <header class="hero">
       <img
-        style="width: 100%"
+        class="hero-img"
         src="/undraw_Web_developer_re_h7ie.png"
         alt="This is image"
       />
-      <h1>Heading inside header</h1>
+      <h1 class="hero-heading">Heading inside header</h1>
     </header>
     <hr />
 
     <h2>@Section</h2>
-    <section>
-      <h3>White Section</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut suscipit
-        odio dolore saepe. Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Quasi, ipsam.
-      </p>
+    <section class="section">
+      <div class="containerCenter">
+        <h3>White Section</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut suscipit
+          odio dolore saepe. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Quasi, ipsam.
+        </p>
+      </div>
     </section>
-    <h3>Off White Section</h3>
-    <section>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae optio
-        ipsum aliquid assumenda rerum obcaecati unde qui, ea maxime modi!
-      </p>
+
+    <section class="section ow">
+      <div class="containerCenter">
+        <h3>Off White Section</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae optio
+          ipsum aliquid assumenda rerum obcaecati unde qui, ea maxime modi!
+        </p>
+      </div>
     </section>
     <hr />
 
     <h2>@Footer</h2>
-    <footer>
-      <div>Some small heading inside footer</div>
-      <ul>
-        <li>instagram</li>
-        <li>Twitter</li>
-        <li>Github</li>
+    <footer class="footer">
+      <div class="footer-header">Some small heading inside footer</div>
+      <ul class="footer-list unorderedList">
+        <li><a href="">Linkdin</a></li>
+        <li><a href="">Twitter</a></li>
+        <li><a href="">Github</a></li>
       </ul>
     </footer>
   </body>
